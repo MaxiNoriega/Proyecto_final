@@ -10,6 +10,7 @@ const ContactoPage = (props) => {
 
     const initialForm = {
         nombre: '',
+        apellido:'',
         email: '',
         telefono: '',
         mensaje: ''
@@ -62,7 +63,7 @@ const ContactoPage = (props) => {
 
                         <p>
                             <label for="apellido">Apellido</label>
-                            <input type="text" name="Apellido" />
+                            <input type="text" name="apellido" value={formData.apellido} onChange={handleChange} />
                         </p>
 
                         <p>

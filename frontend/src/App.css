@@ -83,6 +83,7 @@ nav ul li a {
   padding: 3px 6px;
   display: block;
   text-align: center;
+  font-size: 14px;
 }
 
 nav ul li a:hover {
