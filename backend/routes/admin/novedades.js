@@ -78,7 +78,7 @@ router.post('/agregar', async (req, res, next) => {
         console.log(error)
         res.render('admin/agregar', {
             layout: 'admin/layout',
-            error: true, message: 'No se caro la novedad'
+            error: true, message: 'No se cargo la novedad'
         })
     }
 })
